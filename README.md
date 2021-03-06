@@ -1,6 +1,6 @@
-# Balena Lights
+# IOT Lights
 
-A web application for balena home automation controlling system. Using the application, you can turn the lights (connected balena devices) on/off and change their brightness. The application has been developed using [React](https://reactjs.org/), [MobX](https://mobx.js.org), [Emotion](https://emotion.sh), and Balena [Rendition](https://github.com/balena-io-modules/rendition) components. 
+A web application for iot home automation controlling system. Using the application, you can turn the lights (connected balena devices) on/off and change their brightness. The application has been developed using [React](https://reactjs.org/), [MobX](https://mobx.js.org), [Emotion](https://emotion.sh), and Balena [Rendition](https://github.com/balena-io-modules/rendition) components. 
 
 ### Using the Application
 
@@ -18,7 +18,7 @@ Notice: The changes take place after the communication with the device. If you h
 You need to specify the backend endpoint url in the .env file you will find in the root folder of the project. 
 Example of the .env file
 ```
-REACT_APP_LIGHTS_API_ENDPOINT=http://my.balenaserver.test.com/api
+REACT_APP_LIGHTS_API_ENDPOINT=************
 ```
 For more information about the backend scroll bellow to the backend section.
 
@@ -32,11 +32,11 @@ To run the application in a docker container at port 8000 use the following step
 
 - Build the docker image using the following command
 ```
-docker build -t balena.lights .
+docker build -t iot.lights .
 ```
 - Run the container using the following command
 ```
-docker run -it -p 8000:8000 balena.lights
+docker run -it -p 8000:8000 iot.lights
 ```
  
 ### Run using npm / yarn
@@ -74,7 +74,7 @@ You can run automated test using the command
 npm test
 ```
 ### Backend
-The application requires a backend endpoint to communicate with the devices. If you have the address of the backend API, please write it in the .env file of the project. If you just want to test the project, you can use [this example API](https://github.com/balena-io/light-api), running it using npm or putting it to the Docker machine (if you run the application using Docker).
+The application requires a backend endpoint to communicate with the devices. If you have the address of the backend API, please write it in the .env file of the project. If you just want to test the project, you can use [this example API](), running it using npm or putting it to the Docker machine (if you run the application using Docker).
 ## Authors
 
 **Timos Lanitis** 
