@@ -1,6 +1,6 @@
 # IOT Lights
 
-A web application for iot home automation controlling system. Using the application, you can turn the lights (connected balena devices) on/off and change their brightness. The application has been developed using [React](https://reactjs.org/), [MobX](https://mobx.js.org), [Emotion](https://emotion.sh), and Balena [Rendition](https://github.com/balena-io-modules/rendition) components. 
+A web application for iot home automation controlling system. Using the application, you can turn the lights (connected devices) on/off and change their brightness. The application has been developed using [React](https://reactjs.org/), [MobX](https://mobx.js.org), [Emotion](https://emotion.sh), and [Rendition] components. 
 
 ### Using the Application
 
